@@ -32,7 +32,7 @@ export function ThemeSwitcher() {
 
   <div className='flex justify-center'>
 
-  <div className={`${theme === 'dark' ? 'bg-logo3' : 'bg-logo3'}  w-[112px] h-[112px] md:w-[200px] md:h-[200px] bg-cover rounded-full mt-16 md:mt-56`}/>
+  <div className={`${theme === 'dark' ? 'bg-logo3' : 'bg-logo'}  w-[112px] h-[112px] md:w-[200px] md:h-[200px] bg-cover rounded-full mt-16 md:mt-56`}/>
 
   </div>
 
@@ -50,29 +50,29 @@ export function ThemeSwitcher() {
   <div className='text-center md:w-60 md:mr-80'>
 
     <button className={`${theme === 'dark' ? 
-    'text-center dark:bg-[#ffffff8f] dark:hover:text-white w-[300px] md:w-[540px] md:h-[56px] p-2 mb-4 md:mb-[16px] h-10 rounded-xl opacity-50 hover:opacity-100 transition ease-in-out delay-150 dark:bg-blue-400 hover:-translate-y-1 hover:scale-110 dark:hover:bg-blue-600 duration-300 hover:border' 
-    : 'text-center dark:bg-[#ffffff8f] dark:hover:text-white w-[300px] md:w-[540px] md:h-[56px] p-2 mb-4 md:mb-[16px] h-10 rounded-xl opacity-50 hover:opacity-100 transition ease-in-out delay-150 dark:bg-red-400 hover:-translate-y-1 hover:scale-110 dark:hover:bg-red-600 duration-300 hover:border'}`}>
+    'text-center dark:bg-blue-300 dark:hover:text-black w-[300px] md:w-[540px] md:h-[56px] p-2 mb-4 md:mb-[16px] h-10 rounded-xl opacity-75 hover:opacity-100 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 dark:hover:bg-blue-600 duration-300 hover:border' 
+    : 'text-center dark:hover:text-white w-[300px] md:w-[540px] md:h-[56px] p-2 mb-4 md:mb-[16px] h-10 rounded-xl opacity-75 hover:opacity-100 transition ease-in-out delay-150 bg-blue-900 hover:-translate-y-1 hover:scale-110 dark:hover:bg-blue-600 duration-300 hover:border'}`}>
       Instagram
     </button>
     
     
   
     <button className={`${theme === 'dark' ? 
-    'text-center dark:bg-[#ffffff8f] dark:hover:text-white w-[300px] md:w-[540px] md:h-[56px] p-2 mb-4 md:mb-[16px] h-10 rounded-xl opacity-50 hover:opacity-100 transition ease-in-out delay-150 dark:bg-blue-400 hover:-translate-y-1 hover:scale-110 dark:hover:bg-blue-600 duration-300 hover:border' 
-    : 'text-center dark:bg-[#ffffff8f] dark:hover:text-white w-[300px] md:w-[540px] md:h-[56px] p-2 mb-4 md:mb-[16px] h-10 rounded-xl opacity-50 hover:opacity-100 transition ease-in-out delay-150 dark:bg-red-400 hover:-translate-y-1 hover:scale-110 dark:hover:bg-red-600 duration-300 hover:border'}`}>
-      X
+    'text-center dark:bg-blue-300 dark:hover:text-black w-[300px] md:w-[540px] md:h-[56px] p-2 mb-4 md:mb-[16px] h-10 rounded-xl opacity-75 hover:opacity-100 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 dark:hover:bg-blue-600 duration-300 hover:border' 
+    : 'text-center dark:hover:text-white w-[300px] md:w-[540px] md:h-[56px] p-2 mb-4 md:mb-[16px] h-10 rounded-xl opacity-75 hover:opacity-100 transition ease-in-out delay-150 bg-blue-900 hover:-translate-y-1 hover:scale-110 dark:hover:bg-blue-600 duration-300 hover:border'}`}>
+      Instagram
     </button>
   
     <button className={`${theme === 'dark' ? 
-    'text-center dark:bg-[#ffffff8f] dark:hover:text-white w-[300px] md:w-[540px] md:h-[56px] p-2 mb-4 md:mb-[16px] h-10 rounded-xl opacity-50 hover:opacity-100 transition ease-in-out delay-150 dark:bg-blue-400 hover:-translate-y-1 hover:scale-110 dark:hover:bg-blue-600 duration-300 hover:border' 
-    : 'text-center dark:bg-[#ffffff8f] dark:hover:text-white w-[300px] md:w-[540px] md:h-[56px] p-2 mb-4 md:mb-[16px] h-10 rounded-xl opacity-50 hover:opacity-100 transition ease-in-out delay-150 dark:bg-red-400 hover:-translate-y-1 hover:scale-110 dark:hover:bg-red-600 duration-300 hover:border'}`}>
-      Gmail
+    'text-center dark:bg-blue-300 dark:hover:text-black w-[300px] md:w-[540px] md:h-[56px] p-2 mb-4 md:mb-[16px] h-10 rounded-xl opacity-75 hover:opacity-100 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 dark:hover:bg-blue-600 duration-300 hover:border' 
+    : 'text-center dark:hover:text-white w-[300px] md:w-[540px] md:h-[56px] p-2 mb-4 md:mb-[16px] h-10 rounded-xl opacity-75 hover:opacity-100 transition ease-in-out delay-150 bg-blue-900 hover:-translate-y-1 hover:scale-110 dark:hover:bg-blue-600 duration-300 hover:border'}`}>
+      Instagram
     </button>
   
     <button className={`${theme === 'dark' ? 
-    'text-center dark:bg-[#ffffff8f] dark:hover:text-white w-[300px] md:w-[540px] md:h-[56px] p-2 mb-4 md:mb-[16px] h-10 rounded-xl opacity-50 hover:opacity-100 transition ease-in-out delay-150 dark:bg-blue-400 hover:-translate-y-1 hover:scale-110 dark:hover:bg-blue-600 duration-300 hover:border' 
-    : 'text-center dark:bg-[#ffffff8f] dark:hover:text-white w-[300px] md:w-[540px] md:h-[56px] p-2 mb-4 md:mb-[16px] h-10 rounded-xl opacity-50 hover:opacity-100 transition ease-in-out delay-150 dark:bg-red-400 hover:-translate-y-1 hover:scale-110 dark:hover:bg-red-600 duration-300 hover:border'}`}>
-      Whatsapp
+    'text-center dark:bg-blue-300 dark:hover:text-black w-[300px] md:w-[540px] md:h-[56px] p-2 mb-4 md:mb-[16px] h-10 rounded-xl opacity-75 hover:opacity-100 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 dark:hover:bg-blue-600 duration-300 hover:border' 
+    : 'text-center dark:hover:text-white w-[300px] md:w-[540px] md:h-[56px] p-2 mb-4 md:mb-[16px] h-10 rounded-xl opacity-75 hover:opacity-100 transition ease-in-out delay-150 bg-blue-900 hover:-translate-y-1 hover:scale-110 dark:hover:bg-blue-600 duration-300 hover:border'}`}>
+      Instagram
     </button>
   
     </div>
