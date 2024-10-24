@@ -24,7 +24,7 @@ export function ThemeSwitcher() {
 
   return (
     
-    <div className={`${theme === 'dark' ? 'bg-mobile-image bg-cover bg-no-repeat' : 'bg-mobile-image-light bg-cover bg-no-repeat'} h-screen w-screen`}>
+    <div className={`${theme === 'dark' ? 'bg-[#0f1021] bg-cover bg-no-repeat' : 'bg-[#258dd7] bg-cover bg-no-repeat'} h-screen w-screen`}>
       
       <div className=''>
 
@@ -32,7 +32,7 @@ export function ThemeSwitcher() {
 
   <div className='flex justify-center'>
 
-  <div className={`${theme === 'dark' ? 'bg-logo-light' : 'bg-logo-light'}  w-[112px] h-[112px] md:w-[200px] md:h-[200px] bg-cover rounded-full mt-16 md:mt-56`}/>
+  <div className={`${theme === 'dark' ? 'bg-logo3' : 'bg-logo3'}  w-[112px] h-[112px] md:w-[200px] md:h-[200px] bg-cover rounded-full mt-16 md:mt-56`}/>
 
   </div>
 
